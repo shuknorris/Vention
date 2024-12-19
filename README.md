@@ -1,5 +1,8 @@
 # Start the project
 ## First of all install dependencies
+```bash
+npm install ```
+
 ## git init - to have version control system
 ## npm init -y creates package.json file to track installed packages 
 ## tsc -init creates tsconfig.json file for the configuration purposes
