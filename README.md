@@ -1,11 +1,17 @@
 # Start the project
-## First of all install dependencies
+## First of all install dependencies and configuration
 ```bash
-npm install ```
+npm install
+git init
+npm init -y
+npm install readline-sync
+```
+## To run the typescript compiler
+```bash
+tsc -w
+```
+## To run the application
+```bash
+node app.js
+```
 
-## git init - to have version control system
-## npm init -y creates package.json file to track installed packages 
-## tsc -init creates tsconfig.json file for the configuration purposes
-## npm install readline-sync
-## tsc -w starts the TypeScript Compiler
-## node app.js to run the application use
